@@ -12,5 +12,6 @@
     
     
 ## DLScanCardDemo_FBY
-### 1. 选择项目名字，选择Build Settings，搜索enable bitcode 设置为NO。
-### 2. xcode8上边编译可能会遇到arm64错误， 选择项目名字，选择Build Settings，搜索Enable Testability 设置为NO。
+### 1.文件夹bank_card，BankData复制到工程
+### 2. TARGETS--Build Settings，搜索enable bitcode 设置为NO。
+### 3. xcode8上边编译可能会遇到arm64错误， TARGETS--Build Settings，搜索Enable Testability 设置为NO。
